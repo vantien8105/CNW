@@ -58,3 +58,5 @@ database.properties
 *.swp
 *.swo
 *~
+
+.env
