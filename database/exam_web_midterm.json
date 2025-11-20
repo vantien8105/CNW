@@ -1,0 +1,68 @@
+{
+  "examTitle": "Kiểm tra Công nghệ Web - Giữa kỳ",
+  "description": "Bài kiểm tra giữa kỳ môn Công nghệ Web - HTML, CSS, JavaScript",
+  "duration": 60,
+  "passingScore": 50,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "questionText": "HTML là viết tắt của gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "HyperText Markup Language", "isCorrect": true},
+        {"optionKey": "B", "optionText": "High Tech Modern Language", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Home Tool Markup Language", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Hyperlinks and Text Markup Language", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 2,
+      "questionText": "Thẻ nào dùng để tạo liên kết trong HTML?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "<link>", "isCorrect": false},
+        {"optionKey": "B", "optionText": "<a>", "isCorrect": true},
+        {"optionKey": "C", "optionText": "<href>", "isCorrect": false},
+        {"optionKey": "D", "optionText": "<url>", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 3,
+      "questionText": "CSS dùng để làm gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Tạo cấu trúc trang web", "isCorrect": false},
+        {"optionKey": "B", "optionText": "Định dạng giao diện trang web", "isCorrect": true},
+        {"optionKey": "C", "optionText": "Xử lý logic", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Lưu trữ dữ liệu", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 4,
+      "questionText": "JavaScript chạy ở đâu?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Chỉ trên server", "isCorrect": false},
+        {"optionKey": "B", "optionText": "Chỉ trên browser", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Cả browser và server", "isCorrect": true},
+        {"optionKey": "D", "optionText": "Trên database", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 5,
+      "questionText": "DOM là viết tắt của gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Document Object Model", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Data Object Management", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Digital Online Media", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Dynamic Object Modeling", "isCorrect": false}
+      ]
+    }
+  ]
+}

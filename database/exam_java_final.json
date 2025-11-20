@@ -1,0 +1,128 @@
+{
+  "examTitle": "Kiểm tra Lập trình Java - Cuối kỳ",
+  "description": "Bài kiểm tra cuối kỳ môn Lập trình Java - OOP và Collections",
+  "duration": 120,
+  "passingScore": 50,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "questionText": "OOP là viết tắt của gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Object Oriented Programming", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Object Operational Programming", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Optimal Object Programming", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Open Object Programming", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 2,
+      "questionText": "4 tính chất cơ bản của OOP là gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Encapsulation, Inheritance, Polymorphism, Abstraction", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Class, Object, Method, Variable", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Public, Private, Protected, Default", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Int, String, Boolean, Array", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 3,
+      "questionText": "Constructor trong Java là gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Một phương thức đặc biệt để khởi tạo đối tượng", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Một biến toàn cục", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Một kiểu dữ liệu", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Một lớp trừu tượng", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 4,
+      "questionText": "Interface trong Java có thể chứa gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Chỉ các phương thức abstract", "isCorrect": false},
+        {"optionKey": "B", "optionText": "Các phương thức abstract và default", "isCorrect": true},
+        {"optionKey": "C", "optionText": "Các thuộc tính private", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Các constructor", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 5,
+      "questionText": "ArrayList khác với Array như thế nào?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "ArrayList có thể thay đổi kích thước động", "isCorrect": true},
+        {"optionKey": "B", "optionText": "ArrayList nhanh hơn Array", "isCorrect": false},
+        {"optionKey": "C", "optionText": "ArrayList chỉ chứa số nguyên", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Không có sự khác biệt", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 6,
+      "questionText": "Từ khóa 'static' trong Java có ý nghĩa gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Thuộc về lớp, không thuộc về đối tượng", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Không thể thay đổi giá trị", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Chỉ dùng cho biến số nguyên", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Dùng để khai báo hằng số", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 7,
+      "questionText": "Exception handling trong Java sử dụng từ khóa nào?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "try-catch-finally", "isCorrect": true},
+        {"optionKey": "B", "optionText": "if-else-endif", "isCorrect": false},
+        {"optionKey": "C", "optionText": "begin-rescue-end", "isCorrect": false},
+        {"optionKey": "D", "optionText": "error-handle-done", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 8,
+      "questionText": "HashMap trong Java lưu trữ dữ liệu theo cấu trúc gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Key-Value pairs", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Chỉ values", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Array hai chiều", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Linked List", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 9,
+      "questionText": "Overloading và Overriding khác nhau như thế nào?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Overloading: cùng tên khác tham số, Overriding: ghi đè phương thức lớp cha", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Giống nhau hoàn toàn", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Overloading chỉ dùng cho constructor", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Overriding không được phép trong Java", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 10,
+      "questionText": "Garbage Collection trong Java làm gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Tự động giải phóng bộ nhớ không còn sử dụng", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Xóa các file tạm", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Tối ưu hóa code", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Kiểm tra lỗi cú pháp", "isCorrect": false}
+      ]
+    }
+  ]
+}

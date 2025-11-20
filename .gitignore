@@ -1,0 +1,60 @@
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+.metadata/
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Build directories
+build/
+bin/
+dist/
+
+# Log files
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Tomcat
+/tomcat/
+/catalina.base/
+
+# Upload directories
+/uploads/
+/exam_files/
+
+# Configuration files with sensitive data
+config.properties
+database.properties
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~

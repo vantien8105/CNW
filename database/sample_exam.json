@@ -1,0 +1,253 @@
+{
+  "examTitle": "Kiểm tra giữa kỳ - Lập trình Java",
+  "description": "Bài kiểm tra gồm 20 câu hỏi trắc nghiệm về Java cơ bản",
+  "totalQuestions": 20,
+  "durationMinutes": 60,
+  "passScore": 50.0,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "questionText": "Java là gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "Ngôn ngữ lập trình hướng đối tượng"},
+        {"key": "B", "value": "Hệ điều hành"},
+        {"key": "C", "value": "Cơ sở dữ liệu"},
+        {"key": "D", "value": "Trình duyệt web"}
+      ],
+      "correctAnswer": "A",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 2,
+      "questionText": "JVM là viết tắt của gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "Java Variable Machine"},
+        {"key": "B", "value": "Java Virtual Machine"},
+        {"key": "C", "value": "Java Visual Manager"},
+        {"key": "D", "value": "Java Version Manager"}
+      ],
+      "correctAnswer": "B",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 3,
+      "questionText": "Từ khóa nào được sử dụng để kế thừa một lớp trong Java?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "implements"},
+        {"key": "B", "value": "extends"},
+        {"key": "C", "value": "inherits"},
+        {"key": "D", "value": "super"}
+      ],
+      "correctAnswer": "B",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 4,
+      "questionText": "Java có hỗ trợ đa kế thừa (multiple inheritance) không?",
+      "questionType": "TRUE_FALSE",
+      "options": [
+        {"key": "T", "value": "Đúng"},
+        {"key": "F", "value": "Sai"}
+      ],
+      "correctAnswer": "F",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 5,
+      "questionText": "Method nào là entry point của một chương trình Java?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "start()"},
+        {"key": "B", "value": "main()"},
+        {"key": "C", "value": "run()"},
+        {"key": "D", "value": "init()"}
+      ],
+      "correctAnswer": "B",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 6,
+      "questionText": "Từ khóa nào được sử dụng để tạo đối tượng trong Java?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "create"},
+        {"key": "B", "value": "new"},
+        {"key": "C", "value": "object"},
+        {"key": "D", "value": "instance"}
+      ],
+      "correctAnswer": "B",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 7,
+      "questionText": "String trong Java là immutable (bất biến)?",
+      "questionType": "TRUE_FALSE",
+      "options": [
+        {"key": "T", "value": "Đúng"},
+        {"key": "F", "value": "Sai"}
+      ],
+      "correctAnswer": "T",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 8,
+      "questionText": "Interface trong Java có thể chứa các phương thức abstract?",
+      "questionType": "TRUE_FALSE",
+      "options": [
+        {"key": "T", "value": "Đúng"},
+        {"key": "F", "value": "Sai"}
+      ],
+      "correctAnswer": "T",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 9,
+      "questionText": "Từ khóa nào được sử dụng để bắt ngoại lệ trong Java?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "catch"},
+        {"key": "B", "value": "handle"},
+        {"key": "C", "value": "except"},
+        {"key": "D", "value": "error"}
+      ],
+      "correctAnswer": "A",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 10,
+      "questionText": "Trong Java, phương thức finalize() được gọi khi nào?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "Khi đối tượng được tạo"},
+        {"key": "B", "value": "Trước khi đối tượng bị garbage collector thu hồi"},
+        {"key": "C", "value": "Khi chương trình kết thúc"},
+        {"key": "D", "value": "Khi có exception xảy ra"}
+      ],
+      "correctAnswer": "B",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 11,
+      "questionText": "ArrayList và LinkedList đều implement interface List?",
+      "questionType": "TRUE_FALSE",
+      "options": [
+        {"key": "T", "value": "Đúng"},
+        {"key": "F", "value": "Sai"}
+      ],
+      "correctAnswer": "T",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 12,
+      "questionText": "Package nào chứa các lớp collection trong Java?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "java.io"},
+        {"key": "B", "value": "java.util"},
+        {"key": "C", "value": "java.lang"},
+        {"key": "D", "value": "java.collection"}
+      ],
+      "correctAnswer": "B",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 13,
+      "questionText": "Từ khóa static được sử dụng để tạo biến và phương thức thuộc về lớp?",
+      "questionType": "TRUE_FALSE",
+      "options": [
+        {"key": "T", "value": "Đúng"},
+        {"key": "F", "value": "Sai"}
+      ],
+      "correctAnswer": "T",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 14,
+      "questionText": "Constructor trong Java có kiểu trả về?",
+      "questionType": "TRUE_FALSE",
+      "options": [
+        {"key": "T", "value": "Đúng"},
+        {"key": "F", "value": "Sai"}
+      ],
+      "correctAnswer": "F",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 15,
+      "questionText": "Từ khóa nào được sử dụng để gọi constructor của lớp cha?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "this"},
+        {"key": "B", "value": "super"},
+        {"key": "C", "value": "parent"},
+        {"key": "D", "value": "base"}
+      ],
+      "correctAnswer": "B",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 16,
+      "questionText": "Overloading là gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "Nhiều phương thức cùng tên nhưng khác tham số"},
+        {"key": "B", "value": "Ghi đè phương thức của lớp cha"},
+        {"key": "C", "value": "Tạo nhiều constructor"},
+        {"key": "D", "value": "Cả A và C đều đúng"}
+      ],
+      "correctAnswer": "D",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 17,
+      "questionText": "Abstract class có thể được khởi tạo (instantiate)?",
+      "questionType": "TRUE_FALSE",
+      "options": [
+        {"key": "T", "value": "Đúng"},
+        {"key": "F", "value": "Sai"}
+      ],
+      "correctAnswer": "F",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 18,
+      "questionText": "Từ khóa synchronized được sử dụng để làm gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "Đồng bộ hóa luồng (thread synchronization)"},
+        {"key": "B", "value": "Tạo thread mới"},
+        {"key": "C", "value": "Dừng thread"},
+        {"key": "D", "value": "Khởi động thread"}
+      ],
+      "correctAnswer": "A",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 19,
+      "questionText": "HashMap cho phép key null?",
+      "questionType": "TRUE_FALSE",
+      "options": [
+        {"key": "T", "value": "Đúng"},
+        {"key": "F", "value": "Sai"}
+      ],
+      "correctAnswer": "T",
+      "points": 5.0
+    },
+    {
+      "questionNumber": 20,
+      "questionText": "Từ khóa final có thể được sử dụng cho?",
+      "questionType": "MULTIPLE_CHOICE",
+      "options": [
+        {"key": "A", "value": "Biến"},
+        {"key": "B", "value": "Phương thức"},
+        {"key": "C", "value": "Lớp"},
+        {"key": "D", "value": "Tất cả các đáp án trên"}
+      ],
+      "correctAnswer": "D",
+      "points": 5.0
+    }
+  ]
+}

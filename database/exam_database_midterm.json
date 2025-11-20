@@ -1,0 +1,128 @@
+{
+  "examTitle": "Kiểm tra Cơ sở dữ liệu - Giữa kỳ",
+  "description": "Bài kiểm tra giữa kỳ môn Cơ sở dữ liệu - Tập trung vào SQL và thiết kế CSDL",
+  "duration": 90,
+  "passingScore": 50,
+  "questions": [
+    {
+      "questionNumber": 1,
+      "questionText": "SQL là viết tắt của gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Structured Query Language", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Simple Query Language", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Standard Query Language", "isCorrect": false},
+        {"optionKey": "D", "optionText": "System Query Language", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 2,
+      "questionText": "Lệnh nào sau đây được sử dụng để tạo một bảng mới trong SQL?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "CREATE DATABASE", "isCorrect": false},
+        {"optionKey": "B", "optionText": "CREATE TABLE", "isCorrect": true},
+        {"optionKey": "C", "optionText": "NEW TABLE", "isCorrect": false},
+        {"optionKey": "D", "optionText": "INSERT TABLE", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 3,
+      "questionText": "Khóa chính (Primary Key) trong cơ sở dữ liệu có đặc điểm gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Có thể chứa giá trị NULL", "isCorrect": false},
+        {"optionKey": "B", "optionText": "Có thể trùng lặp", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Xác định duy nhất một bản ghi", "isCorrect": true},
+        {"optionKey": "D", "optionText": "Không cần thiết trong bảng", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 4,
+      "questionText": "Lệnh SELECT được sử dụng để làm gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Xóa dữ liệu", "isCorrect": false},
+        {"optionKey": "B", "optionText": "Truy vấn dữ liệu", "isCorrect": true},
+        {"optionKey": "C", "optionText": "Cập nhật dữ liệu", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Thêm dữ liệu mới", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 5,
+      "questionText": "Khóa ngoại (Foreign Key) dùng để làm gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Tạo liên kết giữa các bảng", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Tăng tốc độ truy vấn", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Mã hóa dữ liệu", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Sao lưu dữ liệu", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 6,
+      "questionText": "Lệnh nào để cập nhật dữ liệu trong SQL?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "MODIFY", "isCorrect": false},
+        {"optionKey": "B", "optionText": "UPDATE", "isCorrect": true},
+        {"optionKey": "C", "optionText": "CHANGE", "isCorrect": false},
+        {"optionKey": "D", "optionText": "ALTER", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 7,
+      "questionText": "JOIN trong SQL được sử dụng để làm gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Kết hợp dữ liệu từ nhiều bảng", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Xóa dữ liệu trùng lặp", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Sắp xếp dữ liệu", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Lọc dữ liệu", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 8,
+      "questionText": "Index trong cơ sở dữ liệu có tác dụng gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Tăng dung lượng lưu trữ", "isCorrect": false},
+        {"optionKey": "B", "optionText": "Tăng tốc độ truy vấn", "isCorrect": true},
+        {"optionKey": "C", "optionText": "Mã hóa dữ liệu", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Backup dữ liệu", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 9,
+      "questionText": "Normalization trong thiết kế CSDL là gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Quá trình tối ưu hóa truy vấn", "isCorrect": false},
+        {"optionKey": "B", "optionText": "Quá trình giảm thiểu dư thừa dữ liệu", "isCorrect": true},
+        {"optionKey": "C", "optionText": "Quá trình sao lưu dữ liệu", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Quá trình mã hóa dữ liệu", "isCorrect": false}
+      ]
+    },
+    {
+      "questionNumber": 10,
+      "questionText": "Transaction trong CSDL có đặc tính ACID. A trong ACID là gì?",
+      "questionType": "MULTIPLE_CHOICE",
+      "points": 10,
+      "options": [
+        {"optionKey": "A", "optionText": "Atomicity (Tính nguyên tử)", "isCorrect": true},
+        {"optionKey": "B", "optionText": "Availability (Tính sẵn sàng)", "isCorrect": false},
+        {"optionKey": "C", "optionText": "Accuracy (Tính chính xác)", "isCorrect": false},
+        {"optionKey": "D", "optionText": "Authentication (Tính xác thực)", "isCorrect": false}
+      ]
+    }
+  ]
+}
