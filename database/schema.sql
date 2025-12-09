@@ -131,7 +131,8 @@ CREATE INDEX idx_submission_exam ON exam_submissions(exam_id);
 CREATE INDEX idx_notification_user ON notifications(user_id, is_read);
 
 -- Insert sample data for testing
--- Password for all users: password123
+-- Password for all users: password123 (hashed with BCrypt)
+-- Note: In production, use proper password hashing
 
 -- Insert sample teachers
 INSERT INTO users (username, password_hash, email, full_name, user_type) VALUES
@@ -142,26 +143,54 @@ INSERT INTO teachers (user_id, teacher_code, department, title) VALUES
 (1, 'GV001', 'Khoa Công Nghệ Thông Tin', 'Giảng viên'),
 (2, 'GV002', 'Khoa Toán - Tin học', 'Phó Giáo sư');
 
--- Insert sample students
+-- Insert sample students (expanded list)
 INSERT INTO users (username, password_hash, email, full_name, user_type) VALUES
 ('student1', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student1@student.edu', 'Lê Văn An', 'STUDENT'),
 ('student2', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student2@student.edu', 'Phạm Thị Bình', 'STUDENT'),
-('student3', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student3@student.edu', 'Hoàng Văn Cường', 'STUDENT');
+('student3', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student3@student.edu', 'Hoàng Văn Cường', 'STUDENT'),
+('student4', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student4@student.edu', 'Nguyễn Thị Dung', 'STUDENT'),
+('student5', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student5@student.edu', 'Trần Văn Em', 'STUDENT'),
+('student6', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student6@student.edu', 'Võ Thị Phượng', 'STUDENT'),
+('student7', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student7@student.edu', 'Đặng Văn Giang', 'STUDENT'),
+('student8', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student8@student.edu', 'Bùi Thị Hương', 'STUDENT'),
+('student9', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student9@student.edu', 'Phan Văn Ích', 'STUDENT'),
+('student10', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student10@student.edu', 'Lý Thị Kim', 'STUDENT'),
+('student11', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student11@student.edu', 'Hồ Văn Long', 'STUDENT'),
+('student12', '$2a$10$xS6LwYQBUZ0RZYYPCzUFXu5.VdqvLwJHh7MqKvW9fwT7t9wT7t9wT', 'student12@student.edu', 'Đinh Thị Mai', 'STUDENT');
 
 INSERT INTO students (user_id, student_code, major, year_of_study) VALUES
 (3, 'SV001', 'Công nghệ phần mềm', 3),
 (4, 'SV002', 'Khoa học máy tính', 2),
-(5, 'SV003', 'Hệ thống thông tin', 3);
+(5, 'SV003', 'Hệ thống thông tin', 3),
+(6, 'SV004', 'Công nghệ phần mềm', 2),
+(7, 'SV005', 'Khoa học máy tính', 3),
+(8, 'SV006', 'Hệ thống thông tin', 2),
+(9, 'SV007', 'Công nghệ phần mềm', 4),
+(10, 'SV008', 'Khoa học máy tính', 1),
+(11, 'SV009', 'Hệ thống thông tin', 4),
+(12, 'SV010', 'Công nghệ phần mềm', 1),
+(13, 'SV011', 'Khoa học máy tính', 3),
+(14, 'SV012', 'Hệ thống thông tin', 2);
 
 -- Insert sample courses
-INSERT INTO courses (course_code, course_name, teacher_id, semester, year) VALUES
-('IT101', 'Lập trình Java cơ bản', 1, 'HK1', 2024),
-('IT201', 'Cơ sở dữ liệu', 1, 'HK1', 2024),
-('IT301', 'Công nghệ Web', 2, 'HK1', 2024),
-('IT401', 'Kiến trúc phần mềm', 2, 'HK1', 2024);
+INSERT INTO courses (course_code, course_name, teacher_id, semester, year, description) VALUES
+('IT101', 'Lập trình Java cơ bản', 1, 'HK1', 2024, 'Môn học cơ bản về lập trình Java'),
+('IT201', 'Cơ sở dữ liệu', 1, 'HK1', 2024, 'Thiết kế và quản trị cơ sở dữ liệu'),
+('IT301', 'Công nghệ Web', 2, 'HK1', 2024, 'Phát triển ứng dụng web với Java'),
+('IT401', 'Kiến trúc phần mềm', 2, 'HK1', 2024, 'Thiết kế và kiến trúc hệ thống phần mềm');
 
--- Enroll students to courses
-INSERT INTO course_enrollments (student_id, course_id) VALUES
-(1, 1), (1, 2), (1, 3),
-(2, 1), (2, 2), (2, 4),
-(3, 2), (3, 3), (3, 4);
+-- Enroll students to courses (multiple students per course)
+INSERT INTO course_enrollments (student_id, course_id, status) VALUES
+-- IT101: Lập trình Java cơ bản (8 students)
+(1, 1, 'ACTIVE'), (2, 1, 'ACTIVE'), (4, 1, 'ACTIVE'), (6, 1, 'ACTIVE'),
+(8, 1, 'ACTIVE'), (10, 1, 'ACTIVE'), (12, 1, 'ACTIVE'), (5, 1, 'ACTIVE'),
+-- IT201: Cơ sở dữ liệu (10 students)
+(1, 2, 'ACTIVE'), (2, 2, 'ACTIVE'), (3, 2, 'ACTIVE'), (5, 2, 'ACTIVE'),
+(7, 2, 'ACTIVE'), (9, 2, 'ACTIVE'), (11, 2, 'ACTIVE'), (4, 2, 'ACTIVE'),
+(6, 2, 'ACTIVE'), (8, 2, 'ACTIVE'),
+-- IT301: Công nghệ Web (7 students)
+(1, 3, 'ACTIVE'), (3, 3, 'ACTIVE'), (5, 3, 'ACTIVE'), (7, 3, 'ACTIVE'),
+(9, 3, 'ACTIVE'), (11, 3, 'ACTIVE'), (2, 3, 'ACTIVE'),
+-- IT401: Kiến trúc phần mềm (6 students)
+(2, 4, 'ACTIVE'), (3, 4, 'ACTIVE'), (4, 4, 'ACTIVE'), (6, 4, 'ACTIVE'),
+(8, 4, 'ACTIVE'), (10, 4, 'ACTIVE');
